@@ -6,6 +6,16 @@
 
 :root {
   font-size: 62.5%;
+
+  --bg-pr-color: #ffffff;
+  --bg-sc-color: #f5f5f5;
+  --bg-tt-color: #000000;
+
+  --bt-pr-color: #8f0101;
+  --bt-sc-color: #b81515;
+
+  --text-pr-color: #222222;
+  --text-sc-color: #fff;
 }
 
 body {
