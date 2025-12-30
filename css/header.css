@@ -16,6 +16,10 @@ header {
   height: 6.4rem;
 }
 
+input[type='checkbox']:checked ~ nav {
+  display: block;
+}
+
 nav {
   display: none;
 }
