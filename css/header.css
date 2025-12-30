@@ -34,15 +34,38 @@ nav {
   left: 10px;
 }
 
-.list-link {
-  list-style: none;
-}
-
 .list-link li {
+  list-style: none;
   margin: 1.6rem 0;
+  color: var(--text-sc-color);
+  padding-left: 1.6rem;
 }
 
 .list-link a {
   text-decoration: none;
   color: var(--text-sc-color);
+  font-weight: var(--menu-text-weight);
+  font-size: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu {
+    margin-top: 0;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+    position: relative;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
 }
