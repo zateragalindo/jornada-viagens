@@ -31,9 +31,30 @@
 body {
   font-size: 1.6rem;
   font-family: 'Montserrat';
+  color: var(--text-pr-color);
 }
 
 h1 {
   font-weight: var(--title-weight);
   color: var(--pr-color);
+}
+
+.section-title h2 {
+  font-size: 2.8rem;
+  font-weight: var(--title-weight);
+  text-align: center;
+}
+
+.section-title hr {
+  width: 18rem;
+  height: 0.4rem;
+  background-color: var(--sc-color);
+  margin: 1.6rem auto 3.2rem;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 3.2rem;
+  }
 }
