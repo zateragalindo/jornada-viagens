@@ -53,8 +53,33 @@ h1 {
   border: none;
 }
 
+.button {
+  display: inline-block;
+
+  width: 28rem;
+  height: 6.4rem;
+
+  color: var(--text-sc-color);
+  font-weight: var(--title-weight);
+  font-size: 2rem;
+
+  background-color: var(--sc-color);
+  border-radius: 1.6rem;
+
+  text-decoration: none;
+
+  line-height: 6.4rem;
+  margin-top: 2.4rem;
+}
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--pr-color);
   }
 }
