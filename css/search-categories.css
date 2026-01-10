@@ -1,0 +1,44 @@
+.search-categories-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+.pacotes-nacionais {
+  background-color: var(--bg-sc-color);
+  width: 31.2rem;
+  height: 22rem;
+}
+
+.pacotes-nacionais a {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+
+.pacotes-nacionais a img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.pacotes-nacionais a p {
+  font-size: 2.8rem;
+  font-weight: var(--title-weight);
+  color: var(--text-pr-color);
+}
+
+@media screen and (min-width: 768px) {
+  .search-categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
